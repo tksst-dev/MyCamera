@@ -10,7 +10,6 @@ import SwiftUI
 struct ImagePickerView: UIViewControllerRepresentable {
     // UIImagePickerController（写真撮影）が表示されているかを管理
     @Binding var isShowSheet: Bool
-    
     // 撮影した写真を格納する変数
     @Binding var captureImage: UIImage?
 
@@ -41,7 +40,6 @@ struct ImagePickerView: UIViewControllerRepresentable {
         }
         
         // キャンセルボタンが選択されたときに呼ばれる
-        
         // delegateメソッド、必ず必要
         func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
             // sheetを閉じる

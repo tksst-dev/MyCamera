@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		144236A6287AC45800B6717A /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144236A5287AC45800B6717A /* ActivityView.swift */; };
+		144236A8287AD50A00B6717A /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144236A7287AD50900B6717A /* PHPickerView.swift */; };
 		14D79AD52865E21C00540B7C /* MyCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D79AD42865E21C00540B7C /* MyCameraApp.swift */; };
 		14D79AD72865E21C00540B7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D79AD62865E21C00540B7C /* ContentView.swift */; };
 		14D79AD92865E21E00540B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D79AD82865E21E00540B7C /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		144236A5287AC45800B6717A /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		144236A7287AD50900B6717A /* PHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
 		14D79AD12865E21C00540B7C /* MyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D79AD42865E21C00540B7C /* MyCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCameraApp.swift; sourceTree = "<group>"; };
 		14D79AD62865E21C00540B7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			children = (
 				14D79AD42865E21C00540B7C /* MyCameraApp.swift */,
 				14D79AD62865E21C00540B7C /* ContentView.swift */,
+				144236A7287AD50900B6717A /* PHPickerView.swift */,
+				144236A5287AC45800B6717A /* ActivityView.swift */,
 				14D79AE22865E24C00540B7C /* ImagePickerView.swift */,
 				14D79AD82865E21E00540B7C /* Assets.xcassets */,
 				14D79ADA2865E21E00540B7C /* Preview Content */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144236A8287AD50A00B6717A /* PHPickerView.swift in Sources */,
 				14D79AD72865E21C00540B7C /* ContentView.swift in Sources */,
+				144236A6287AC45800B6717A /* ActivityView.swift in Sources */,
 				14D79AE32865E24C00540B7C /* ImagePickerView.swift in Sources */,
 				14D79AD52865E21C00540B7C /* MyCameraApp.swift in Sources */,
 			);
@@ -276,6 +284,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真の保存に利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +317,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真の保存に利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
